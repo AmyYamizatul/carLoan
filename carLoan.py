@@ -1,26 +1,26 @@
-print("Welcome to the RBA Car Loan Calculator.\n\n")
+st.header("Welcome to the RBA Car Loan Calculator.\n\n")
 
 while True:
 
-    totalAmount = input("Please enter the total amount")
+    totalAmount = st.write("Please enter the total amount")
     try:
         totalAmount = int(totalAmount)
         break
 
     except ValueError:
-        print("\nPlease enter a number.")
+        st.write("Please enter a number")
 
 # Part2 : Store the downPayment
 
 while True:
 
-    downPayment = input("Please enter the down payment.\n")
+    downPayment = st.write("Please enter the down payment")
     try:
         downPayment = int(downPayment)
         break
     
     except ValueError:
-        print("\nPlease enter a number.")
+        st.write("Please enter a number")
     
 
 
@@ -29,23 +29,23 @@ while True:
 
 while True:
 
-    interestRate = input("Please enter the interest rate.\n")
+    interestRate = st.write("Please enter the interest rate")
     try:
         interestRate = float(interestRate)
         break
     
     except ValueError:
-        print("\nPlease enter a number.")
+        st.write("Please enter a number")
       
     
 # Part4 : Store the loanPeriod
 
 while True:
 
-    loanPeriod = input("Please enter the loan period.\n")
+    loanPeriod = st.write("Please enter the loan period")
     try:
         loanPeriod = float(loanPeriod)
         break
     
     except ValueError:
-        print("\nPlease enter a number.")
+        st.write("Please enter a number")
