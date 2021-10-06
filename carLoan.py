@@ -2,7 +2,7 @@ print("Welcome to the RBA Car Loan Calculator.\n\n")
 
 while True:
 
-    totalAmount = input("\n\nPlease enter the total amount.\n")
+    totalAmount = input("Please enter the total amount")
     try:
         totalAmount = int(totalAmount)
         break
