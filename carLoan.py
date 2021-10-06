@@ -1,4 +1,4 @@
-st.header("Welcome to the RBA Car Loan Calculator.\n\n")
+st.header("Welcome to the RBA Car Loan Calculator")
 
 while True:
 
